@@ -9,7 +9,7 @@
 
 int numReaders, numWriters;
 int resourceFlag;
-int sharedVariable X = 0;
+int sharedVariable = 0;
 
 
 pthread_mutex_t m = PTHREAD_MUTEX_INITIALISER;
