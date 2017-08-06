@@ -43,9 +43,9 @@ int main()
 
 		// join the threads
 		pthread_join (readThread[i], NULL);
-		printf ("Reader thread %d: Joined.\n",i);
+		printf ("%dth Reader thread Joined!\n",i);
 		pthread_join (writeThread[i], NULL);
-		printf("Writer thread %d: Joined\n", i);
+		printf("%dth Writer thread Joined\n", i);
 
 	}
 
